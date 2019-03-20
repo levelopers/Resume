@@ -1,0 +1,47 @@
+.profile{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.pro-title{
+  font-size: 15px;
+}
+.pro-border{
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.pro-content{
+  font-size: 13px;
+}
+.experience-box{
+  margin-top: 5%;
+}
+.experience{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.exp-title{
+  font-size: 15px;
+}
+.exp-border{
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.exp-content{
+  font-size: 13px;
+}
+.exp-partial-title{
+  font-size: 15px;
+}
+.exp-partial-description{
+  font-size: 13px;
+  margin-top: 5px;
+}
+.exp-partial-ul{
+  font-size: 13px;
+}

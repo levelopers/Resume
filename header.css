@@ -1,10 +1,10 @@
-.header_box{
+.header-box{
   width: 100%;
-  height: 10%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 .header{
   width: 60%;
@@ -19,7 +19,7 @@
   font-size: 30px;
 
 }
-.name_border{
+.name-border{
   width: 10%;
   border-bottom: 1px solid black;
 }
