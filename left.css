@@ -1,3 +1,4 @@
+
 /* info */
 .info-box{
   width: 100%;
@@ -7,11 +8,13 @@
   flex-direction: column;
 }
 .info-title{
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 .info-border{
   border-bottom: 1px solid black;
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
 }
 .info-partial{
@@ -21,12 +24,18 @@
 .info-partial-logo{
   width: 20px;
   height: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+.info-partial-text-title{
+  color: black;
+  font-weight: bold;
 }
 .info-partial-text{
   font-size: 13px;
   margin-left: 15px;
+  color: grey;
 }
+
 /* education */
 .education-box{
   width: 100%;
@@ -38,11 +47,13 @@
   flex-direction: column;
 }
 .edu-title{
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 .edu-border{
   border-bottom: 1px solid black;
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
 }
 .edu-content{
@@ -57,10 +68,13 @@
 .edu-partial-title{
   font-size: 13px;
   font-family: 'sans-serif';
+  font-weight: bold;
 }
 .edu-partial-content{
   margin-top: 3%;
   font-size: 13px;
+  line-height: 1.5;
+  color: grey;
 }
 /* skills */
 .skills-box{
@@ -73,20 +87,24 @@
   flex-direction: column;
 }
 .skills-title{
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 .skills-border{
   border-bottom: 1px solid black;
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
 }
 .skills-content{
   display: flex;
   flex-direction: column;
+  color: grey;
 }
 ul{
   font-size: 13px;
   padding-left: 15px;
+  line-height: 1.5;
 }
 li{
   margin-bottom: 3px;
